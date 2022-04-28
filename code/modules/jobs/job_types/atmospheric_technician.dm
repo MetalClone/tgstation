@@ -14,7 +14,7 @@
 	outfit = /datum/outfit/job/atmos
 	plasmaman_outfit = /datum/outfit/plasmaman/atmospherics
 
-	paycheck = PAYCHECK_CREW
+	paycheck = PAYCHECK_MEDIUM
 	paycheck_department = ACCOUNT_ENG
 
 	liver_traits = list(TRAIT_ENGINEER_METABOLISM)

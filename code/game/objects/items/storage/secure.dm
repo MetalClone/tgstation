@@ -156,7 +156,8 @@
 
 /obj/item/storage/secure/briefcase/syndie/PopulateContents()
 	..()
-	for(var/iterator in 1 to 5)
+	var/datum/component/storage/storage_space = GetComponent(/datum/component/storage)
+	for(var/i in 1 to storage_space.max_items - 2)
 		new /obj/item/stack/spacecash/c1000(src)
 
 ///Secure Safe
